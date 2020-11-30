@@ -1,0 +1,55 @@
+### Invoke function locally without URL Parameter
+GET  http://localhost:7071/api/LovelyLadoosClassifier/ HTTP/1.1
+
+### Invoke function locally with picture of doughnut
+GET  http://localhost:7071/api/LovelyLadoosClassifier/ HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://www.cookingclassy.com/wp-content/uploads/2014/01/krispy-kreme-copycat-recipe-edit+text..jpg"
+}
+
+### Invoke function locally with picture of cake
+GET  http://localhost:7071/api/LovelyLadoosClassifier/ HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://images.ichkoche.at/data/image/variations/620x434/9/amerikanischer-apple-pie-img-88635.jpg"
+}
+
+### Invoke function locally with picture of ladoo
+GET  http://localhost:7071/api/LovelyLadoosClassifier/ HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://i.ytimg.com/vi/28-Z26RsPEU/maxresdefault.jpg"
+}
+
+
+### Invoke function remote without URL Parameter
+GET  https://seasonofserverlessweek2.azurewebsites.net/api/LovelyLadoosClassifier / HTTP/1.1
+
+
+### Invoke function remote with picture of doughnut
+GET  https://seasonofserverlessweek2.azurewebsites.net/api/LovelyLadoosClassifier HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://www.cookingclassy.com/wp-content/uploads/2014/01/krispy-kreme-copycat-recipe-edit+text..jpg"
+}
+
+### Invoke function remote with picture of cake
+GET  https://seasonofserverlessweek2.azurewebsites.net/api/LovelyLadoosClassifier HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://images.ichkoche.at/data/image/variations/620x434/9/amerikanischer-apple-pie-img-88635.jpg"
+}
+
+### Invoke function remote with picture of ladoo
+GET  https://seasonofserverlessweek2.azurewebsites.net/api/LovelyLadoosClassifier HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://i.ytimg.com/vi/28-Z26RsPEU/maxresdefault.jpg"
+}
